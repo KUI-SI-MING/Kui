@@ -29,7 +29,7 @@ int main ()
 		int i = 0;
 		myargv[i++] = strtok(cmd, " ");// ls -a -b -c -d
 		char *ret = NULL;
-		while(ret = strtok(NULL, " "))//strtok函数？
+		while(ret = strtok(NULL, " "))
 		{
 			myargv[i++] = ret;
 		}
